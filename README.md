@@ -26,11 +26,11 @@ This project develops a machine learning solution to predict `Late_delivery_risk
 For a clean, reproducible, and deployable project, the recommended structure is as follows:
 
 ```
-my_supply_chain_project/
+ShipGuard/
 ├── data/
 │   └── DataCoSupplyChainDataset.csv  # Original dataset
 ├── notebooks/
-│   └── main_analysis.ipynb           # This notebook (or a cleaned version)
+│   └── exploratory_analysis.ipynb           # This notebook (or a cleaned version)
 ├── src/
 │   ├── __init__.py
 │   ├── preprocess.py                 # Functions for data cleaning, feature engineering, and TF-IDF vectorization
